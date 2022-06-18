@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://justhomas.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://justhomas.in/" rel="alternate" type="text/html" /><updated>2022-06-18T18:30:16+05:30</updated><id>https://justhomas.in/feed.xml</id><title type="html">Justin Thomas</title><subtitle>Are you a software developer? Or maybe you  want to be one. Either way, this blog is for you. I’m a software developer with a passion for writing and sharing knowledge. I’ve worked with ReactJS, Django, Flutter, Saleor and more. I’m going to be writing about all of those tools, as well as sharing some of my knowledge and experiences.</subtitle><author><name>Justin</name></author><entry><title type="html">How to limit a Django model field to only positive numbers</title><link href="https://justhomas.in/2022/06/18/limit_django_model_field_Only_positive_numbers.html" rel="alternate" type="text/html" title="How to limit a Django model field to only positive numbers" /><published>2022-06-18T00:00:00+05:30</published><updated>2022-06-19T04:15:06+05:30</updated><id>https://justhomas.in/2022/06/18/limit_django_model_field_Only_positive_numbers</id><content type="html" xml:base="https://justhomas.in/2022/06/18/limit_django_model_field_Only_positive_numbers.html"><![CDATA[<h2 id="validating-integers">Validating Integers</h2>
+
+<p>Django makes it simple to validate a model field for only positive integers. There are three types of Fields for validating positive numbers.</p>
+
+<h3 id="positiveintegerfield">PositiveIntegerField</h3>
+
+<p>Similar to an <strong>IntegerField</strong>, but the value must be positive or zero (0). In all Django-supported databases, values ranging from 0 to 2147483647 are safe. For backward compatibility, the value 0 is acceptable.</p>
+
+<h3 id="positivebigintegerfield">PositiveBigIntegerField</h3>
+
+<p>Similar to a <strong>PositiveIntegerField</strong>, but only accepts values below a specific (database-dependent) threshold. In all Django-supported databases, values ranging from 0 to 9223372036854775807 are safe.</p>
+
+<h3 id="positivesmallintegerfield">PositiveSmallIntegerField</h3>
+
+<p>Similar to a <strong>PositiveIntegerField</strong>, except it only accepts values that are less than a specified (database-dependent) threshold. In all Django-supported databases, values from 0 to 32767 are safe.</p>
+
+<h3 id="example">Example</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+
+<span class="k">class</span> <span class="nc">Book</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+  <span class="n">no_of_pages</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">PositiveIntegerField</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="validating-decimals">Validating Decimals</h2>
+
+<p>To handle decimal integers, Django has two types of fields: <strong>DecimalField</strong> and <strong>FloatField</strong>. However, Django lacks a field similar to <strong>PostiveIntegerField</strong> that only accepts positive decimals. As a result, we have to enforce the validation using other options provided by Django.</p>
+
+<h3 id="validations-using-minvaluevalidator">Validations using MinValueValidator</h3>
+
+<p>We may provide a <strong>limit_value</strong> to the field by using the <strong>MinValueValidator</strong>; Django raises a <strong>ValidationError</strong> with the code ‘min value’ if value is less than <strong>limit_value</strong>. If you want to know how the <strong>MinValueValidator</strong> works, you can look at the <a href="https://docs.djangoproject.com/en/dev/_modules/django/core/validators/#MinValueValidator">source code here</a>.</p>
+
+<h4 id="example-1">Example</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+
+<span class="k">class</span> <span class="nc">Product</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+  <span class="n">price</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">FloatField</span><span class="p">(</span><span class="n">validators</span><span class="o">=</span><span class="p">[</span><span class="n">MinValueValidator</span><span class="p">(</span><span class="mi">0</span><span class="p">)])</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">Product</span><span class="p">(</span><span class="n">price</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">p</span><span class="p">.</span><span class="n">clean_fields</span><span class="p">()</span> <span class="c1"># raise ValidationError
+</span></code></pre></div></div>
+
+<blockquote>
+  <p>Note: Validation in Django does not happen automatically. As a result, we have to run obj.clean_fields() or obj.clean() before saving the object.</p>
+</blockquote>
+
+<p>Validator is django’s logic, and it is database-independent. The validator is applied, but nothing is done to enforce the constraint at the database level. This validation will only work if obj.clean_fields() or obj.clean() are called, as previously stated.</p>
+
+<h3 id="validation-using-constraints">Validation using Constraints</h3>
+
+<p>The Meta option <strong>constraints</strong> allows us to provide a list of restrictions that we want to define on the model. Constraints will be created at the database level this way. A <strong>FloatField</strong> that is always equal to or larger than zero will be enforced by the underlying database.</p>
+
+<p>Constraints are generally not checked during full_clean() and do not cause <strong>ValidationErrors</strong>. Instead, when we save, we’ll get a database integrity error ().</p>
+
+<h4 id="example-2">Example</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+
+<span class="k">class</span> <span class="nc">Product</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
+<span class="n">price</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">FloatField</span><span class="p">()</span>
+
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">constraints</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">models</span><span class="p">.</span><span class="n">CheckConstraint</span><span class="p">(</span><span class="n">check</span><span class="o">=</span><span class="n">models</span><span class="p">.</span><span class="n">Q</span><span class="p">(</span><span class="n">price__gte</span><span class="o">=</span><span class="s">'0'</span><span class="p">),</span> <span class="n">name</span><span class="o">=</span><span class="s">'product_price_non_negative'</span><span class="p">),</span>
+        <span class="p">]</span>
+</code></pre></div></div>]]></content><author><name>Justin</name></author><category term="Django" /><category term="Python" /><category term="Django Model Field Validations" /><summary type="html"><![CDATA[A quick look at how to use PositiveIntegerField, FloatField, and DecimalField in Django model fields to enforce minimum value validations.]]></summary></entry></feed>
