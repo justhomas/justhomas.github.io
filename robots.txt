@@ -1,1 +1,1 @@
-Sitemap: https://justhomas.in/sitemap.xml
+Sitemap: https://justhomas.github.io//sitemap.xml
