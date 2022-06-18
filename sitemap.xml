@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://justhomas.github.io//2022/06/18/limit_django_model_field_Only_positive_numbers.html</loc>
+<loc>https://www.justhomas.in//2022/06/18/limit_django_model_field_Only_positive_numbers.html</loc>
 <lastmod>2022-06-19T04:15:06+05:30</lastmod>
 </url>
 <url>
-<loc>https://justhomas.github.io//blog/</loc>
+<loc>https://www.justhomas.in//blog/</loc>
 </url>
 <url>
-<loc>https://justhomas.github.io//contact/</loc>
+<loc>https://www.justhomas.in//contact/</loc>
 </url>
 <url>
-<loc>https://justhomas.github.io//</loc>
+<loc>https://www.justhomas.in//</loc>
 </url>
 <url>
-<loc>https://justhomas.github.io//tags/</loc>
+<loc>https://www.justhomas.in//tags/</loc>
 </url>
 <url>
-<loc>https://justhomas.github.io//year-archive/</loc>
+<loc>https://www.justhomas.in//year-archive/</loc>
 </url>
 </urlset>
