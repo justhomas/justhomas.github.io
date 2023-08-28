@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Structures and algorithms on Justin Thomas</title>
+    <link>https://justhomas.in/posts/data-structures-and-algorithms/</link>
+    <description>Recent content in Data Structures and algorithms on Justin Thomas</description>
+    <image>
+      <title>Justin Thomas</title>
+      <url>https://justhomas.in/papermod-cover.png</url>
+      <link>https://justhomas.in/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://justhomas.in/posts/data-structures-and-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Greedy Guesses to Optimal Solutions: Mastering the House Robber Problem</title>
+      <link>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</guid>
+      <description>The House Robber problem is a popular problem in the field of Dynamic Programming. You have to find the maximum amount of money that can be stolen from a row of houses, given that no two adjacent houses can be robbed.</description>
+    </item>
+    
+  </channel>
+</rss>

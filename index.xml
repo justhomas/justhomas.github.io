@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Justin Thomas</title>
+    <link>https://justhomas.in/</link>
+    <description>Recent content on Justin Thomas</description>
+    <image>
+      <title>Justin Thomas</title>
+      <url>https://justhomas.in/papermod-cover.png</url>
+      <link>https://justhomas.in/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 21 Jan 2023 09:29:10 +0530</lastBuildDate><atom:link href="https://justhomas.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Comprehensive Exploration of &#39;Designing Data-Intensive Applications&#39; by Martin Kleppmann</title>
+      <link>https://justhomas.in/posts/recommended-books/designing-data-intensive-applications-martin-kleppmann/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/recommended-books/designing-data-intensive-applications-martin-kleppmann/</guid>
+      <description>Dive into the comprehensive review of Martin Kleppmann&amp;rsquo;s book, &amp;ldquo;Designing Data-Intensive Applications.&amp;rdquo; Explore its coverage of foundational data systems, distributed data complexities, and derived data insights. Discover how this book bridges theory and practice, making it an essential read for both tech professionals and beginners in the field. Uncover why this book is a guiding light for creating scalable, reliable, and maintainable systems in the era of Big Data.</description>
+    </item>
+    
+    <item>
+      <title>From Greedy Guesses to Optimal Solutions: Mastering the House Robber Problem</title>
+      <link>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</guid>
+      <description>The House Robber problem is a popular problem in the field of Dynamic Programming. You have to find the maximum amount of money that can be stolen from a row of houses, given that no two adjacent houses can be robbed.</description>
+    </item>
+    
+    <item>
+      <title>Demystifying Itertools, Iterators, and Generators in Python</title>
+      <link>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</link>
+      <pubDate>Sat, 21 Jan 2023 09:29:10 +0530</pubDate>
+      
+      <guid>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</guid>
+      <description>Introduction When it comes to working with sequences of data in Python, the itertools, iterators, and generators play a significant role in enhancing efficiency and maintaining code readability. In this blog post, we&amp;rsquo;ll delve into the intricacies of these concepts and explore how they can be utilized effectively in your Python projects.
+Understanding Itertools and the next() Function The itertools module is a powerhouse of utility functions that simplify common tasks involving iterators.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Iterators in Python: Understanding the Iterable and Iterator Protocols</title>
+      <link>https://justhomas.in/python/iterator_in_python/</link>
+      <pubDate>Sat, 22 Jan 2022 09:54:36 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/iterator_in_python/</guid>
+      <description>Introduction to Iterators in Python. An iterator is an object in Python that represents a sequence of values. It is used to iterate over a container, such as a list, tuple, or dictionary. The iterator provides a way to access each item in the container one at a time, without having to know the details of how the container is implemented.
+Here&amp;rsquo;s an example of creating an iterator in Python:</description>
+    </item>
+    
+    <item>
+      <title>Mastering Django Middlewares: A Guide to Customizing Request and Response Objects</title>
+      <link>https://justhomas.in/python/django/middleware-in-django/</link>
+      <pubDate>Sat, 17 Jul 2021 21:32:23 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/django/middleware-in-django/</guid>
+      <description>Introduction We all know that Django is an amazing web framework. It is very easy to use and has a lot of features. One can easily create a web application with Django. But what if you want to add some custom functionality to your application. FLet&amp;rsquo;s say you want to keep track of every request made to your app, or maybe you want to modify the request before it gets to the view or change the response before it&amp;rsquo;s sent to the client.</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

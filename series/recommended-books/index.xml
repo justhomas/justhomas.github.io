@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recommended Books on Justin Thomas</title>
+    <link>https://justhomas.in/series/recommended-books/</link>
+    <description>Recent content in Recommended Books on Justin Thomas</description>
+    <image>
+      <title>Justin Thomas</title>
+      <url>https://justhomas.in/papermod-cover.png</url>
+      <link>https://justhomas.in/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://justhomas.in/series/recommended-books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Comprehensive Exploration of &#39;Designing Data-Intensive Applications&#39; by Martin Kleppmann</title>
+      <link>https://justhomas.in/posts/recommended-books/designing-data-intensive-applications-martin-kleppmann/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/recommended-books/designing-data-intensive-applications-martin-kleppmann/</guid>
+      <description>Dive into the comprehensive review of Martin Kleppmann&amp;rsquo;s book, &amp;ldquo;Designing Data-Intensive Applications.&amp;rdquo; Explore its coverage of foundational data systems, distributed data complexities, and derived data insights. Discover how this book bridges theory and practice, making it an essential read for both tech professionals and beginners in the field. Uncover why this book is a guiding light for creating scalable, reliable, and maintainable systems in the era of Big Data.</description>
+    </item>
+    
+  </channel>
+</rss>
