@@ -22,6 +22,15 @@ Understanding Itertools and the next() Function The itertools module is a powerh
     </item>
     
     <item>
+      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Cop</title>
+      <link>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</guid>
+      <description>Learn the difference between shallow copy and deep copy in Python. Explore the copy module and its copy() and deepcopy() functionsand and how to use the copy module to create shallow and deep copies of objects in Python.</description>
+    </item>
+    
+    <item>
       <title>Mastering Iterators in Python: Understanding the Iterable and Iterator Protocols</title>
       <link>https://justhomas.in/python/iterator_in_python/</link>
       <pubDate>Sat, 22 Jan 2022 09:54:36 +0530</pubDate>
