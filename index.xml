@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>From Greedy Guesses to Optimal Solutions: Mastering the House Robber Problem</title>
-      <link>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</guid>
-      <description>The House Robber problem is a popular problem in the field of Dynamic Programming. You have to find the maximum amount of money that can be stolen from a row of houses, given that no two adjacent houses can be robbed.</description>
-    </item>
-    
-    <item>
       <title>Demystifying Itertools, Iterators, and Generators in Python</title>
       <link>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</link>
       <pubDate>Sat, 21 Jan 2023 09:29:10 +0530</pubDate>
@@ -40,7 +31,7 @@ Understanding Itertools and the next() Function The itertools module is a powerh
     </item>
     
     <item>
-      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Cop</title>
+      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Copy</title>
       <link>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       

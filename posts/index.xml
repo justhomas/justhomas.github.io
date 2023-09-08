@@ -22,7 +22,7 @@ Understanding Itertools and the next() Function The itertools module is a powerh
     </item>
     
     <item>
-      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Cop</title>
+      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Copy</title>
       <link>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
