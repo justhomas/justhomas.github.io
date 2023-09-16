@@ -5,27 +5,6 @@
     <loc>https://justhomas.in/posts/recommended-books/designing-data-intensive-applications-martin-kleppmann/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://justhomas.in/tags/fastapi/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/python/things-i-learned-from-my-first-opensource-contribution/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/tags/opensource/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/posts/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/tags/python/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/tags/</loc>
-    <lastmod>2023-07-22T09:54:36+05:30</lastmod>
-  </url><url>
     <loc>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</loc>
     <lastmod>2023-01-21T09:29:10+05:30</lastmod>
   </url><url>
@@ -36,6 +15,18 @@
     <lastmod>2023-01-21T09:29:10+05:30</lastmod>
   </url><url>
     <loc>https://justhomas.in/tags/itertools/</loc>
+    <lastmod>2023-01-21T09:29:10+05:30</lastmod>
+  </url><url>
+    <loc>https://justhomas.in/</loc>
+    <lastmod>2023-01-21T09:29:10+05:30</lastmod>
+  </url><url>
+    <loc>https://justhomas.in/posts/</loc>
+    <lastmod>2023-01-21T09:29:10+05:30</lastmod>
+  </url><url>
+    <loc>https://justhomas.in/tags/python/</loc>
+    <lastmod>2023-01-21T09:29:10+05:30</lastmod>
+  </url><url>
+    <loc>https://justhomas.in/tags/</loc>
     <lastmod>2023-01-21T09:29:10+05:30</lastmod>
   </url><url>
     <loc>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</loc>
@@ -68,27 +59,11 @@
     <loc>https://justhomas.in/tags/middleware/</loc>
     <lastmod>2021-07-17T21:32:23+05:30</lastmod>
   </url><url>
-    <loc>https://justhomas.in/tags/algorithms/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/series/data-structures-and-algorithms/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/posts/data-structures-and-algorithms/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/tags/dsa/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/tags/dynamic-programming/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://justhomas.in/posts/data-structures-and-algorithms/dynamic-programming-robbing-house-problem/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://justhomas.in/archives/</loc>
   </url><url>
     <loc>https://justhomas.in/categories/</loc>
+  </url><url>
+    <loc>https://justhomas.in/posts/data-structures-and-algorithms/</loc>
   </url><url>
     <loc>https://justhomas.in/posts/generative-ai/</loc>
   </url><url>

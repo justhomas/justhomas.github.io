@@ -10,34 +10,7 @@
       <link>https://justhomas.in/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Jul 2023 09:54:36 +0530</lastBuildDate><atom:link href="https://justhomas.in/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>fastapi</title>
-      <link>https://justhomas.in/tags/fastapi/</link>
-      <pubDate>Sat, 22 Jul 2023 09:54:36 +0530</pubDate>
-      
-      <guid>https://justhomas.in/tags/fastapi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opensource</title>
-      <link>https://justhomas.in/tags/opensource/</link>
-      <pubDate>Sat, 22 Jul 2023 09:54:36 +0530</pubDate>
-      
-      <guid>https://justhomas.in/tags/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://justhomas.in/tags/python/</link>
-      <pubDate>Sat, 22 Jul 2023 09:54:36 +0530</pubDate>
-      
-      <guid>https://justhomas.in/tags/python/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 21 Jan 2023 09:29:10 +0530</lastBuildDate><atom:link href="https://justhomas.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generator</title>
       <link>https://justhomas.in/tags/generator/</link>
@@ -62,6 +35,15 @@
       <pubDate>Sat, 21 Jan 2023 09:29:10 +0530</pubDate>
       
       <guid>https://justhomas.in/tags/itertools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://justhomas.in/tags/python/</link>
+      <pubDate>Sat, 21 Jan 2023 09:29:10 +0530</pubDate>
+      
+      <guid>https://justhomas.in/tags/python/</guid>
       <description></description>
     </item>
     
@@ -98,33 +80,6 @@
       <pubDate>Sat, 17 Jul 2021 21:32:23 +0530</pubDate>
       
       <guid>https://justhomas.in/tags/middleware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithms</title>
-      <link>https://justhomas.in/tags/algorithms/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://justhomas.in/tags/algorithms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DSA</title>
-      <link>https://justhomas.in/tags/dsa/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://justhomas.in/tags/dsa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamic Programming</title>
-      <link>https://justhomas.in/tags/dynamic-programming/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://justhomas.in/tags/dynamic-programming/</guid>
       <description></description>
     </item>
     
