@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Justin Thomas</title>
+    <link>https://justhomas.in/posts/</link>
+    <description>Recent content in Posts on Justin Thomas</description>
+    <image>
+      <title>Justin Thomas</title>
+      <url>https://justhomas.in/papermod-cover.png</url>
+      <link>https://justhomas.in/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Jul 2023 09:54:36 +0530</lastBuildDate><atom:link href="https://justhomas.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Steps in Open Source: Valuable Takeaways</title>
+      <link>https://justhomas.in/python/things-i-learned-from-my-first-opensource-contribution/</link>
+      <pubDate>Sat, 22 Jul 2023 09:54:36 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/things-i-learned-from-my-first-opensource-contribution/</guid>
+      <description>Introduction My journey into the world of open source began when I stumbled upon the FastAPI plugin called FastAPIUsers. I was looking for good authentication library for fastapi. What piqued my interest right away was the fact that the repository had a page displaying the profile pictures of all its contributors. I thought it would be cool to see my profile picture on the page, so I decided to contribute to the project.</description>
+    </item>
+    
+    <item>
+      <title>Demystifying Itertools, Iterators, and Generators in Python</title>
+      <link>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</link>
+      <pubDate>Sat, 21 Jan 2023 09:29:10 +0530</pubDate>
+      
+      <guid>https://justhomas.in/posts/itertools-iterator-and-generator-in-python/</guid>
+      <description>Introduction When it comes to working with sequences of data in Python, the itertools, iterators, and generators play a significant role in enhancing efficiency and maintaining code readability. In this blog post, we&amp;rsquo;ll delve into the intricacies of these concepts and explore how they can be utilized effectively in your Python projects.
+Understanding Itertools and the next() Function The itertools module is a powerhouse of utility functions that simplify common tasks involving iterators.</description>
+    </item>
+    
+    <item>
+      <title>The Art of Copying in Python: A Deep Dive into DeepCopy and Shallow Copy</title>
+      <link>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://justhomas.in/posts/python-shallow-copy-and-deep-copy/</guid>
+      <description>Learn the difference between shallow copy and deep copy in Python. Explore the copy module and its copy() and deepcopy() functionsand and how to use the copy module to create shallow and deep copies of objects in Python.</description>
+    </item>
+    
+    <item>
+      <title>Mastering Iterators in Python: Understanding the Iterable and Iterator Protocols</title>
+      <link>https://justhomas.in/python/iterator_in_python/</link>
+      <pubDate>Sat, 22 Jan 2022 09:54:36 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/iterator_in_python/</guid>
+      <description>Introduction to Iterators in Python. An iterator is an object in Python that represents a sequence of values. It is used to iterate over a container, such as a list, tuple, or dictionary. The iterator provides a way to access each item in the container one at a time, without having to know the details of how the container is implemented.
+Here&amp;rsquo;s an example of creating an iterator in Python:</description>
+    </item>
+    
+    <item>
+      <title>Mastering Django Middlewares: A Guide to Customizing Request and Response Objects</title>
+      <link>https://justhomas.in/python/django/middleware-in-django/</link>
+      <pubDate>Sat, 17 Jul 2021 21:32:23 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/django/middleware-in-django/</guid>
+      <description>Introduction We all know that Django is an amazing web framework. It is very easy to use and has a lot of features. One can easily create a web application with Django. But what if you want to add some custom functionality to your application. FLet&amp;rsquo;s say you want to keep track of every request made to your app, or maybe you want to modify the request before it gets to the view or change the response before it&amp;rsquo;s sent to the client.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iterators on Justin Thomas</title>
+    <link>https://justhomas.in/tags/iterators/</link>
+    <description>Recent content in iterators on Justin Thomas</description>
+    <image>
+      <title>Justin Thomas</title>
+      <url>https://justhomas.in/papermod-cover.png</url>
+      <link>https://justhomas.in/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Jan 2022 09:54:36 +0530</lastBuildDate><atom:link href="https://justhomas.in/tags/iterators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Iterators in Python: Understanding the Iterable and Iterator Protocols</title>
+      <link>https://justhomas.in/python/iterator_in_python/</link>
+      <pubDate>Sat, 22 Jan 2022 09:54:36 +0530</pubDate>
+      
+      <guid>https://justhomas.in/python/iterator_in_python/</guid>
+      <description>Introduction to Iterators in Python. An iterator is an object in Python that represents a sequence of values. It is used to iterate over a container, such as a list, tuple, or dictionary. The iterator provides a way to access each item in the container one at a time, without having to know the details of how the container is implemented.
+Here&amp;rsquo;s an example of creating an iterator in Python:</description>
+    </item>
+    
+  </channel>
+</rss>
